@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17.2
+    environment:
+    - POSTGRES_DB=KotlinSpringBootExample
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=P4ssword!
+    ports:
+    - 5433:5432
